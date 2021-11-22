@@ -1,0 +1,199 @@
+/* Common style started here  */
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    html
+    {
+        scroll-behavior: smooth;
+    }
+/* Common style End here  */
+
+/* form container started here  */
+.form-container 
+{
+    max-width: 760px;
+    /* max-height: 600px; */
+    background-color: #FFFFFF;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    margin: 0px  auto;
+    margin-top: 10%;
+    border-radius: 10px; 
+    padding: 30px 30px;
+
+}
+/* form container end here  */
+/* Logo class started here  */
+.logo label 
+{
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+/* img container start here  */
+.img-container
+{
+
+    padding: 30px 20px;
+    margin: 0px auto;
+
+ 
+}
+.img-container img
+{
+    width: 250px;
+    padding-top: 60px;
+  
+}
+
+/* name section started here  */
+.name-section input
+{
+    width: 45%;
+    height: 35px;
+    padding: 1px 5px;
+    outline: none;
+ 
+    border: 1px solid rgba(128, 128, 128, 0.664);
+    border-radius: 4px;
+}
+.name-section input:focus
+{
+    border:2px solid #4285F4;
+}
+/* user Name section start here  */
+.user-name-section input 
+{
+    width: 360px;
+    height: 35px;
+    
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    display: inline-table;
+    border-radius: 4px;
+    outline: none;
+    padding: 0px 10px;
+}
+.user-name-section input:focus
+{
+    border: 2px solid #4286f4dc;
+}
+.user-name-section input::placeholder
+{
+    
+}
+/* Start mail started here  */
+.style-mail 
+{
+    border: 1px solid gray;
+    padding: 5px 0px;
+    border-left: none;
+    padding-right: 2px;
+    margin-right: 2px;
+    display: inline-block;
+
+}
+/* plasce Holder start here  */
+::placeholder 
+{
+  font-size: 15px;
+}
+/* Next button style start here  */
+.next-btn
+{
+    padding: 6px 20px;
+    border: none;
+    background-color: #1B66CA;
+    color: white;
+    font-weight: 900px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* .Show password container  */
+.show-password-container 
+{
+    display: flex;
+
+}
+.massage 
+{
+    font-size: 15px;
+}
+/* Sign in text start here  */
+.sign-in-text 
+{
+    font-weight: bold;
+    color: #4585ED;
+    font-size: 14px;
+    
+}
+.sign-in-text>a 
+{
+    text-decoration: none;
+}
+/* Last Section Started here  */
+.sign-in-next-container 
+{
+    display: flex;
+    justify-content: space-between;
+}
+/* Language and Privacy section started here  */
+.language-privacy 
+{
+    max-width: 760px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 0px 10px;
+}
+.language 
+{
+    font-size: 13px;
+}
+.others a
+{
+    text-decoration: none;
+    padding: 0px 12px;
+    color: black;
+    font-size: 13px;
+}
+/* Responsive Section Started Here  */
+@media screen and (max-width:950px)
+{
+   
+    .img-container img
+    {
+       width: 0px;
+    }
+    .form-container 
+    {
+        border: none;
+    }
+}
+@media screen and (max-width:580px)
+{
+    .name-section input
+    {
+        width: 100%;
+        margin-top: 6%;
+       
+    }
+    .img-container img
+    {
+       width: 0px;
+    }
+    #bottom-text 
+    {
+     opacity: 0;
+    }
+    .user-name-section input  
+    {
+        width: 100%;
+    }
+    .form-container 
+    {
+        border: none;
+    }
+}
